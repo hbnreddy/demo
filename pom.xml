@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>caramelit</groupId>
-  <artifactId>app</artifactId>
+  <artifactId>zust-meetv1.0</artifactId>
   <version>3.0</version>
   <packaging>war</packaging>
 
@@ -21,6 +21,13 @@
     <buildNumber>${env.BUILD_NUMBER}</buildNumber>
      
   </properties>
+	<!-- https://mvnrepository.com/artifact/org.phpmaven/maven-php-plugin -->
+<dependency>
+    <groupId>org.phpmaven</groupId>
+    <artifactId>maven-php-plugin</artifactId>
+    <version>1.0-BETA-1</version>
+</dependency>
+
 
   <dependencies>
     <dependency>
@@ -77,7 +84,12 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-	      
+	      <plugin>
+                <groupId>org.phpmaven</groupId>
+                <artifactId>maven-php-plugin</artifactId>
+                <!-- version>${phpmaven.plugin.version}</version -->
+                <extensions>true</extensions>
+                <configuration></configuration>  </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
