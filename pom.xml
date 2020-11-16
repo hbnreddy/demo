@@ -43,11 +43,7 @@
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.8.3</version>
 </dependency>
-	  <dependency>
-    <groupId>org.phpmaven</groupId>
-    <artifactId>maven-php-plugin</artifactId>
-    <version>1.0-BETA-1</version>
-</dependency>
+	 
 	  
 	  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 <dependency>
