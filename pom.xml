@@ -80,12 +80,7 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-	      <plugin>
-                <groupId>org.phpmaven</groupId>
-                <artifactId>maven-php-plugin</artifactId>
-                <!-- version>${phpmaven.plugin.version}</version -->
-                <extensions>true</extensions>
-                <configuration></configuration>  </plugin>
+	      
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
